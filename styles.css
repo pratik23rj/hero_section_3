@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+:root{
+    --red: #DC2626;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}  
+
+.heading{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+
+.container{
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 5rem;
+
+}
+
+.container h1{
+    text-align: justify;
+    margin: 0.5rem 0.75rem;
+}
+
+
+.container p{
+    font-size: 1.3em;
+    text-align: justify;
+    margin: 0.5rem 0.75rem;
+    margin-bottom: 1rem;
+    
+}
+
+.btn-1{
+    background-color: var(--red);
+    padding: 0.5rem 1.5rem ;
+    color: white;
+    border-radius: 0.35rem;
+    font-size: 1.2rem;
+    text-decoration: none; 
+    margin: 0.5rem 0.75rem; 
+    
+}
+
+.btn-2{
+    padding: 0.5rem 1.5rem ;
+    color: var(--red);
+    border-radius: 0.35rem;
+    font-size: 1.2rem;
+    border: 1px solid var(--red);
+    margin-left: 1.75rem;
+    text-decoration: none;  
+    margin: 0.5rem 0.75rem; 
+}
+
+.btn-2:hover{
+    background-color: var(--red);
+    color: white;   
+}
+
+@media screen and (max-width: 840px) {
+    
+    .btn-1{    
+        margin: 0.5rem 0.75rem;
+        padding: 0.5rem 0.5rem ;
+        font-size: 1.2rem;
+    }
+    
+    .btn-2{
+        margin: 0.5rem 0.75rem;
+        padding: 0.5rem 0.5rem ;
+        font-size: 1.2rem; 
+    }
+    
+}    
+
+/* Bottom Section - Ignore it */
+.credit{
+    text-align: center;
+    background-color: #F5F5F5;
+    padding: 1rem 1.5rem;
+    margin: 5rem auto 0rem auto;
+    max-width: 500px;
+}
+
